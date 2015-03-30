@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3B7DC407DD1E8CAE94216AA8 /* libPods-Strap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8651A9201DE57E9B2A98BD06 /* libPods-Strap.a */; };
+		3F2341B2A9F3F159FDA9D1C5 /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F23493EF5D4C0DEC12DEF5B /* StreamViewController.m */; };
+		3F234437B74B948531F86166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2340F1F0AD457084D7E420 /* ViewController.m */; };
+		3F2344B3B00F17205E617472 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F23414B7F26985A70EC23D0 /* Post.m */; };
+		3F234874E7DCBDBA9D2DBC93 /* StreamCollectionViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F234D960E9A72A444585F6F /* StreamCollectionViewNode.m */; };
+		3F234932C2C1A04582CC46A6 /* AppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F234422504B75E6B5267CF2 /* AppDotNetAPIClient.m */; };
 		AB1E48271AC46F860084B189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E48261AC46F860084B189 /* main.m */; };
 		AB1E482A1AC46F860084B189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E48291AC46F860084B189 /* AppDelegate.m */; };
-		AB1E482D1AC46F860084B189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E482C1AC46F860084B189 /* ViewController.m */; };
-		AB1E48301AC46F860084B189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1E482E1AC46F860084B189 /* Main.storyboard */; };
 		AB1E48321AC46F860084B189 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1E48311AC46F860084B189 /* Images.xcassets */; };
 		AB1E48351AC46F860084B189 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1E48331AC46F860084B189 /* LaunchScreen.xib */; };
 		AB1E48411AC46F860084B189 /* StrapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E48401AC46F860084B189 /* StrapTests.m */; };
@@ -19,7 +22,6 @@
 		AB1E484D1AC48AE50084B189 /* yup.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB1E484C1AC48AE50084B189 /* yup.gif */; };
 		AB1F0BD81AC5DBA800141F25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */; };
 		AB1F0BDA1AC5DC7000141F25 /* yeah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */; };
-		C8B08E1A36FABCDA8BD2E550 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B080DE689B00D47659A672 /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,15 +36,22 @@
 
 /* Begin PBXFileReference section */
 		39D9863B337A1D6103052642 /* Pods-Strap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strap/Pods-Strap.debug.xcconfig"; sourceTree = "<group>"; };
+		3F2340F1F0AD457084D7E420 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F23414B7F26985A70EC23D0 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		3F2342857FB63E00289E5FDC /* StreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamViewController.h; sourceTree = "<group>"; };
+		3F234422504B75E6B5267CF2 /* AppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDotNetAPIClient.m; sourceTree = "<group>"; };
+		3F234441D9C2A80F7A533603 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F2344C7DDF5C2C0554FE72C /* StreamCollectionViewNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamCollectionViewNode.h; sourceTree = "<group>"; };
+		3F2344F170D4EBFB2A268E46 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		3F2345A458BA3D545C770065 /* AppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDotNetAPIClient.h; sourceTree = "<group>"; };
+		3F23493EF5D4C0DEC12DEF5B /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
+		3F234D960E9A72A444585F6F /* StreamCollectionViewNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamCollectionViewNode.m; sourceTree = "<group>"; };
 		8651A9201DE57E9B2A98BD06 /* libPods-Strap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Strap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E48211AC46F860084B189 /* Strap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E48251AC46F860084B189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB1E48261AC46F860084B189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB1E48281AC46F860084B189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB1E48291AC46F860084B189 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB1E482B1AC46F860084B189 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB1E482C1AC46F860084B189 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB1E482F1AC46F860084B189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB1E48311AC46F860084B189 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB1E48341AC46F860084B189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AB1E483A1AC46F860084B189 /* StrapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +61,6 @@
 		AB1E484C1AC48AE50084B189 /* yup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yup.gif; sourceTree = "<group>"; };
 		AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yeah.mp4; sourceTree = "<group>"; };
-		C8B080DE689B00D47659A672 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
-		C8B081482489D4E2402477C9 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		C8B0829E0FA51582F05379F3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		ED5A01F49D42D1A105CE3428 /* Pods-Strap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strap/Pods-Strap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +85,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F23425C0C5803E1C58B20D9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F2342857FB63E00289E5FDC /* StreamViewController.h */,
+				3F23493EF5D4C0DEC12DEF5B /* StreamViewController.m */,
+				3F234441D9C2A80F7A533603 /* ViewController.h */,
+				3F2340F1F0AD457084D7E420 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F234E540C93197BA7D5A965 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F23414B7F26985A70EC23D0 /* Post.m */,
+				3F2344F170D4EBFB2A268E46 /* Post.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3F234E9116560368530BE362 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F234D960E9A72A444585F6F /* StreamCollectionViewNode.m */,
+				3F2344C7DDF5C2C0554FE72C /* StreamCollectionViewNode.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6495B1FBAE7C1D77F6627C9B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,15 +151,15 @@
 				AB1E484A1AC48A8D0084B189 /* bees.gif */,
 				AB1E48281AC46F860084B189 /* AppDelegate.h */,
 				AB1E48291AC46F860084B189 /* AppDelegate.m */,
-				AB1E482B1AC46F860084B189 /* ViewController.h */,
-				AB1E482C1AC46F860084B189 /* ViewController.m */,
-				AB1E482E1AC46F860084B189 /* Main.storyboard */,
 				AB1E48311AC46F860084B189 /* Images.xcassets */,
 				AB1E48331AC46F860084B189 /* LaunchScreen.xib */,
 				AB1E48241AC46F860084B189 /* Supporting Files */,
 				C8B0829E0FA51582F05379F3 /* Constants.h */,
-				C8B080DE689B00D47659A672 /* CustomViewController.m */,
-				C8B081482489D4E2402477C9 /* CustomViewController.h */,
+				3F23425C0C5803E1C58B20D9 /* ViewControllers */,
+				3F234E9116560368530BE362 /* Views */,
+				3F234422504B75E6B5267CF2 /* AppDotNetAPIClient.m */,
+				3F2345A458BA3D545C770065 /* AppDotNetAPIClient.h */,
+				3F234E540C93197BA7D5A965 /* Models */,
 			);
 			path = Strap;
 			sourceTree = "<group>";
@@ -245,7 +281,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1E48301AC46F860084B189 /* Main.storyboard in Resources */,
 				AB1E48351AC46F860084B189 /* LaunchScreen.xib in Resources */,
 				AB1E48321AC46F860084B189 /* Images.xcassets in Resources */,
 				AB1E484D1AC48AE50084B189 /* yup.gif in Resources */,
@@ -301,10 +336,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1E482D1AC46F860084B189 /* ViewController.m in Sources */,
 				AB1E482A1AC46F860084B189 /* AppDelegate.m in Sources */,
 				AB1E48271AC46F860084B189 /* main.m in Sources */,
-				C8B08E1A36FABCDA8BD2E550 /* CustomViewController.m in Sources */,
+				3F2341B2A9F3F159FDA9D1C5 /* StreamViewController.m in Sources */,
+				3F234437B74B948531F86166 /* ViewController.m in Sources */,
+				3F234874E7DCBDBA9D2DBC93 /* StreamCollectionViewNode.m in Sources */,
+				3F234932C2C1A04582CC46A6 /* AppDotNetAPIClient.m in Sources */,
+				3F2344B3B00F17205E617472 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB1E482E1AC46F860084B189 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB1E482F1AC46F860084B189 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB1E48331AC46F860084B189 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

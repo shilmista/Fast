@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "StreamViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    if (self.window == nil)
+        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[StreamViewController alloc] init];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
