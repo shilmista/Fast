@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B7DC407DD1E8CAE94216AA8 /* libPods-Strap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8651A9201DE57E9B2A98BD06 /* libPods-Strap.a */; };
 		AB1E48271AC46F860084B189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E48261AC46F860084B189 /* main.m */; };
 		AB1E482A1AC46F860084B189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E48291AC46F860084B189 /* AppDelegate.m */; };
 		AB1E482D1AC46F860084B189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E482C1AC46F860084B189 /* ViewController.m */; };
@@ -14,6 +15,11 @@
 		AB1E48321AC46F860084B189 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1E48311AC46F860084B189 /* Images.xcassets */; };
 		AB1E48351AC46F860084B189 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1E48331AC46F860084B189 /* LaunchScreen.xib */; };
 		AB1E48411AC46F860084B189 /* StrapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E48401AC46F860084B189 /* StrapTests.m */; };
+		AB1E484B1AC48A8D0084B189 /* bees.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB1E484A1AC48A8D0084B189 /* bees.gif */; };
+		AB1E484D1AC48AE50084B189 /* yup.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB1E484C1AC48AE50084B189 /* yup.gif */; };
+		AB1F0BD81AC5DBA800141F25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */; };
+		AB1F0BDA1AC5DC7000141F25 /* yeah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */; };
+		C8B08E1A36FABCDA8BD2E550 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B080DE689B00D47659A672 /* CustomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39D9863B337A1D6103052642 /* Pods-Strap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strap/Pods-Strap.debug.xcconfig"; sourceTree = "<group>"; };
+		8651A9201DE57E9B2A98BD06 /* libPods-Strap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Strap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E48211AC46F860084B189 /* Strap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E48251AC46F860084B189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB1E48261AC46F860084B189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,14 @@
 		AB1E483A1AC46F860084B189 /* StrapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E483F1AC46F860084B189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB1E48401AC46F860084B189 /* StrapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrapTests.m; sourceTree = "<group>"; };
+		AB1E484A1AC48A8D0084B189 /* bees.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bees.gif; sourceTree = "<group>"; };
+		AB1E484C1AC48AE50084B189 /* yup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yup.gif; sourceTree = "<group>"; };
+		AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yeah.mp4; sourceTree = "<group>"; };
+		C8B080DE689B00D47659A672 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		C8B081482489D4E2402477C9 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		C8B0829E0FA51582F05379F3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		ED5A01F49D42D1A105CE3428 /* Pods-Strap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strap/Pods-Strap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1F0BD81AC5DBA800141F25 /* AVFoundation.framework in Frameworks */,
+				3B7DC407DD1E8CAE94216AA8 /* libPods-Strap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +78,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6495B1FBAE7C1D77F6627C9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39D9863B337A1D6103052642 /* Pods-Strap.debug.xcconfig */,
+				ED5A01F49D42D1A105CE3428 /* Pods-Strap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB1E48181AC46F860084B189 = {
 			isa = PBXGroup;
 			children = (
 				AB1E48231AC46F860084B189 /* Strap */,
 				AB1E483D1AC46F860084B189 /* StrapTests */,
 				AB1E48221AC46F860084B189 /* Products */,
+				6495B1FBAE7C1D77F6627C9B /* Pods */,
+				D8C9571D9B14111323042149 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +110,9 @@
 		AB1E48231AC46F860084B189 /* Strap */ = {
 			isa = PBXGroup;
 			children = (
+				AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */,
+				AB1E484C1AC48AE50084B189 /* yup.gif */,
+				AB1E484A1AC48A8D0084B189 /* bees.gif */,
 				AB1E48281AC46F860084B189 /* AppDelegate.h */,
 				AB1E48291AC46F860084B189 /* AppDelegate.m */,
 				AB1E482B1AC46F860084B189 /* ViewController.h */,
@@ -89,6 +121,9 @@
 				AB1E48311AC46F860084B189 /* Images.xcassets */,
 				AB1E48331AC46F860084B189 /* LaunchScreen.xib */,
 				AB1E48241AC46F860084B189 /* Supporting Files */,
+				C8B0829E0FA51582F05379F3 /* Constants.h */,
+				C8B080DE689B00D47659A672 /* CustomViewController.m */,
+				C8B081482489D4E2402477C9 /* CustomViewController.h */,
 			);
 			path = Strap;
 			sourceTree = "<group>";
@@ -119,6 +154,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D8C9571D9B14111323042149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */,
+				8651A9201DE57E9B2A98BD06 /* libPods-Strap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB1E48441AC46F860084B189 /* Build configuration list for PBXNativeTarget "Strap" */;
 			buildPhases = (
+				8A885B5196712BF80DEE8E8C /* Check Pods Manifest.lock */,
 				AB1E481D1AC46F860084B189 /* Sources */,
 				AB1E481E1AC46F860084B189 /* Frameworks */,
 				AB1E481F1AC46F860084B189 /* Resources */,
+				A8014E44E4FC255699845B22 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +248,9 @@
 				AB1E48301AC46F860084B189 /* Main.storyboard in Resources */,
 				AB1E48351AC46F860084B189 /* LaunchScreen.xib in Resources */,
 				AB1E48321AC46F860084B189 /* Images.xcassets in Resources */,
+				AB1E484D1AC48AE50084B189 /* yup.gif in Resources */,
+				AB1F0BDA1AC5DC7000141F25 /* yeah.mp4 in Resources */,
+				AB1E484B1AC48A8D0084B189 /* bees.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +263,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A885B5196712BF80DEE8E8C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8014E44E4FC255699845B22 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Strap/Pods-Strap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB1E481D1AC46F860084B189 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +304,7 @@
 				AB1E482D1AC46F860084B189 /* ViewController.m in Sources */,
 				AB1E482A1AC46F860084B189 /* AppDelegate.m in Sources */,
 				AB1E48271AC46F860084B189 /* main.m in Sources */,
+				C8B08E1A36FABCDA8BD2E550 /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,21 +424,25 @@
 		};
 		AB1E48451AC46F860084B189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D9863B337A1D6103052642 /* Pods-Strap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Strap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
 		AB1E48461AC46F860084B189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5A01F49D42D1A105CE3428 /* Pods-Strap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Strap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};
@@ -412,6 +499,7 @@
 				AB1E48461AC46F860084B189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB1E48471AC46F860084B189 /* Build configuration list for PBXNativeTarget "StrapTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +508,7 @@
 				AB1E48491AC46F860084B189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

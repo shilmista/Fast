@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Strap-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Strap-AsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Strap-FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Strap-pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Strap.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1A56EB2C4BB55FBADF30DA64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54797572F8C800906287133B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>705DDD26F48761EA5D92949D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F77CBA49570DD031D9B5624</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B963C0A427C0DB39BF6518D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

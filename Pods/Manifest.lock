@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (2.5.1):
+    - AFNetworking/NSURLConnection (= 2.5.1)
+    - AFNetworking/NSURLSession (= 2.5.1)
+    - AFNetworking/Reachability (= 2.5.1)
+    - AFNetworking/Security (= 2.5.1)
+    - AFNetworking/Serialization (= 2.5.1)
+    - AFNetworking/UIKit (= 2.5.1)
+  - AFNetworking/NSURLConnection (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.1)
+  - AFNetworking/Security (2.5.1)
+  - AFNetworking/Serialization (2.5.1)
+  - AFNetworking/UIKit (2.5.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AsyncDisplayKit (HEAD based on 1.1.1):
+    - AsyncDisplayKit/ASDealloc2MainObject (= HEAD based on 1.1.1)
+  - AsyncDisplayKit/ASDealloc2MainObject (HEAD based on 1.1.1)
+  - FLAnimatedImage (1.0.8)
+  - pop (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AsyncDisplayKit (HEAD)
+  - FLAnimatedImage
+  - pop (~> 1.0.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
+  AsyncDisplayKit: 897b28140c6c73fbe8d6168f19ce7cbd87c94ee8
+  FLAnimatedImage: 8669ace2a531fc0bb7344a6326f48c3a4c3de84b
+  pop: 2f14a1ea61339767af9e66741b418c831b3844df
+
+COCOAPODS: 0.35.0

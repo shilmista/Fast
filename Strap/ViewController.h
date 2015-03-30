@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class ASDisplayNode;
 
+@interface ViewController : UIViewController
 
 @end
 
