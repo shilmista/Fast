@@ -1,0 +1,1 @@
+PODS_STRAP_SDWEBIMAGE_OTHER_LDFLAGS = -framework "ImageIO"

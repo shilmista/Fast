@@ -13,6 +13,7 @@
 		3F2344B3B00F17205E617472 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F23414B7F26985A70EC23D0 /* Post.m */; };
 		3F234874E7DCBDBA9D2DBC93 /* StreamCollectionViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F234D960E9A72A444585F6F /* StreamCollectionViewNode.m */; };
 		3F234932C2C1A04582CC46A6 /* AppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F234422504B75E6B5267CF2 /* AppDotNetAPIClient.m */; };
+		3F234FC04C183CCB6C6535B5 /* KVNStreamViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2344FA2CD82F191794081F /* KVNStreamViewNode.m */; };
 		AB1E48271AC46F860084B189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E48261AC46F860084B189 /* main.m */; };
 		AB1E482A1AC46F860084B189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E48291AC46F860084B189 /* AppDelegate.m */; };
 		AB1E48321AC46F860084B189 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1E48311AC46F860084B189 /* Images.xcassets */; };
@@ -43,6 +44,8 @@
 		3F234441D9C2A80F7A533603 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F2344C7DDF5C2C0554FE72C /* StreamCollectionViewNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamCollectionViewNode.h; sourceTree = "<group>"; };
 		3F2344F170D4EBFB2A268E46 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		3F2344FA2CD82F191794081F /* KVNStreamViewNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNStreamViewNode.m; sourceTree = "<group>"; };
+		3F234578AFFB2A3F975C8784 /* KVNStreamViewNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNStreamViewNode.h; sourceTree = "<group>"; };
 		3F2345A458BA3D545C770065 /* AppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDotNetAPIClient.h; sourceTree = "<group>"; };
 		3F23493EF5D4C0DEC12DEF5B /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
 		3F234D960E9A72A444585F6F /* StreamCollectionViewNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamCollectionViewNode.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 			children = (
 				3F234D960E9A72A444585F6F /* StreamCollectionViewNode.m */,
 				3F2344C7DDF5C2C0554FE72C /* StreamCollectionViewNode.h */,
+				3F2344FA2CD82F191794081F /* KVNStreamViewNode.m */,
+				3F234578AFFB2A3F975C8784 /* KVNStreamViewNode.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 				3F234874E7DCBDBA9D2DBC93 /* StreamCollectionViewNode.m in Sources */,
 				3F234932C2C1A04582CC46A6 /* AppDotNetAPIClient.m in Sources */,
 				3F2344B3B00F17205E617472 /* Post.m in Sources */,
+				3F234FC04C183CCB6C6535B5 /* KVNStreamViewNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

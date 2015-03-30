@@ -4,8 +4,9 @@
 target 'Strap' do
   pod 'pop', '~> 1.0.7'
   pod 'AsyncDisplayKit', :head
-  pod "AFNetworking", "~> 2.0"
+  pod "AFNetworking"
   pod 'FLAnimatedImage'
+  pod 'SDWebImage'
 end
 
 target 'StrapTests' do

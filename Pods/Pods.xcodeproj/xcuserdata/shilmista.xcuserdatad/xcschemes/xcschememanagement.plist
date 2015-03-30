@@ -6,53 +6,63 @@
 	<dict>
 		<key>Pods-Strap-AFNetworking.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Strap-AsyncDisplayKit.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Strap-FLAnimatedImage.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Strap-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Strap-pop.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Strap.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A56EB2C4BB55FBADF30DA64</key>
+		<key>3EC125E539624C58E12C65FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54797572F8C800906287133B</key>
+		<key>62C5D2B038CED905CC241F73</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>705DDD26F48761EA5D92949D</key>
+		<key>CDC889F8ADA9F383E9400998</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9F77CBA49570DD031D9B5624</key>
+		<key>D41D9B8EEB91DF9EF49EE9DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B963C0A427C0DB39BF6518D7</key>
+		<key>EA1ED2BE57A9F4F0E7D23276</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA7BDF677FD8FF651040DE1F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

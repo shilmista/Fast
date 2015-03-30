@@ -8,6 +8,7 @@
 #import "ASCollectionView.h"
 #import "Post.h"
 #import "Constants.h"
+#import "KVNStreamViewNode.h"
 
 @interface StreamViewController () <ASCollectionViewDataSource, ASCollectionViewDelegate>
 @property (nonatomic, strong) ASCollectionView *collectionView;
@@ -52,7 +53,7 @@
     [super viewDidLoad];
 
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    [self.collectionView setBackgroundColor:[UIColor grayColor]];
+    [self.collectionView setBackgroundColor:KVNRGBColor(228, 228, 228)];
 
     [self.view addSubview:self.collectionView];
 
@@ -83,11 +84,24 @@
 }
 
 #pragma mark - ASCollectionView data source + delegate
-- (ASCellNode *)collectionView:(ASCollectionView *)collectionView nodeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    StreamCollectionViewNode *node = [[StreamCollectionViewNode alloc] init];
+
+- (void)collectionView:(ASCollectionView *)collectionView willDisplayNodeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    KVNStreamViewNode *node = (KVNStreamViewNode *) [collectionView nodeForItemAtIndexPath:indexPath];
     Post *post = self.streamDataArray[(NSUInteger) indexPath.item];
-    [node setImageURL:post.imageURL];
-    [node setText:post.text];
+    [node setPost:post];
+}
+
+- (void)collectionView:(ASCollectionView *)collectionView didEndDisplayingNodeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    KVNStreamViewNode *node = (KVNStreamViewNode *) [collectionView nodeForItemAtIndexPath:indexPath];
+    [node setPost:nil];
+}
+
+- (ASCellNode *)collectionView:(ASCollectionView *)collectionView nodeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    KVNStreamViewNode *node = [[KVNStreamViewNode alloc] init];
+
+    Post *post = self.streamDataArray[(NSUInteger) indexPath.item];
+    node.post = post;
+
     return node;
 }
 

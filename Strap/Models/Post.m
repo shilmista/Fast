@@ -5,6 +5,7 @@
 
 #import "Post.h"
 #import "AppDotNetAPIClient.h"
+#import "Constants.h"
 
 
 @implementation Post {
@@ -15,6 +16,7 @@
     if (!(self = [super init]))
         return nil;
 
+    DLog(@"attributes: %@", attributes);
     self.text = [attributes valueForKeyPath:@"text"];
     self.imageURL = [NSURL URLWithString:[[attributes valueForKeyPath:@"user"] valueForKeyPath:@"avatar_image.url"]];
 
