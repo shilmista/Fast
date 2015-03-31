@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A56EB2C4BB55FBADF30DA64"
+               BlueprintIdentifier = "4B6FADE0A9F70EFE1705A145"
                BuildableName = "libPods-Strap-pop.a"
                BlueprintName = "Pods-Strap-pop"
                ReferencedContainer = "container:Pods.xcodeproj">

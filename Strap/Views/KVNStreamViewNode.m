@@ -71,6 +71,7 @@ static const float kStreamViewNodeVerticalPadding = 12.0f;
         [self.sdWebImageNode setBackgroundColor:[UIColor whiteColor]];
         [self addSubnode:self.sdWebImageNode];
     }
+
     self.captionNode = [[ASTextNode alloc] init];
     [self.captionNode setBackgroundColor:[UIColor clearColor]];
     [self.captionNode setLayerBacked:YES];
@@ -113,7 +114,21 @@ static const float kStreamViewNodeVerticalPadding = 12.0f;
     }
     else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [(UIImageView *) self.sdWebImageNode.view sd_setImageWithURL:_post.imageURL];
+            [(UIImageView *) self.sdWebImageNode.view sd_setImageWithURL:_post.imageURL
+                                                               completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+                                                                   dispatch_async(dispatch_get_main_queue(), ^{
+                                                                       if (cacheType == SDImageCacheTypeDisk || cacheType == SDImageCacheTypeNone) {
+                                                                           [self.sdWebImageNode.view setAlpha:0];
+                                                                           [UIView animateWithDuration:0.3
+                                                                                            animations:^{
+                                                                                                self.sdWebImageNode.view.alpha = 1.0f;
+                                                                                            }
+                                                                                            completion:^(BOOL finished) {
+
+                                                                                            }];
+                                                                       }
+                                                                   });
+                                                               }];
         });
     }
     NSAttributedString *captionAttributedString = [[NSAttributedString alloc] initWithString:(_post.text ? _post.text : @"")

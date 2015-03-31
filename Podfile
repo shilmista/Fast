@@ -7,6 +7,8 @@ target 'Strap' do
   pod "AFNetworking"
   pod 'FLAnimatedImage'
   pod 'SDWebImage'
+  pod 'KVOController'
+  pod 'Shimmer'
 end
 
 target 'StrapTests' do

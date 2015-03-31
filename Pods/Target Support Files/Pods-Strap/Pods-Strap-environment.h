@@ -66,6 +66,12 @@
 #define COCOAPODS_VERSION_MINOR_FLAnimatedImage 0
 #define COCOAPODS_VERSION_PATCH_FLAnimatedImage 8
 
+// KVOController
+#define COCOAPODS_POD_AVAILABLE_KVOController
+#define COCOAPODS_VERSION_MAJOR_KVOController 1
+#define COCOAPODS_VERSION_MINOR_KVOController 0
+#define COCOAPODS_VERSION_PATCH_KVOController 3
+
 // SDWebImage
 #define COCOAPODS_POD_AVAILABLE_SDWebImage
 #define COCOAPODS_VERSION_MAJOR_SDWebImage 3
@@ -77,6 +83,12 @@
 #define COCOAPODS_VERSION_MAJOR_SDWebImage_Core 3
 #define COCOAPODS_VERSION_MINOR_SDWebImage_Core 7
 #define COCOAPODS_VERSION_PATCH_SDWebImage_Core 2
+
+// Shimmer
+#define COCOAPODS_POD_AVAILABLE_Shimmer
+#define COCOAPODS_VERSION_MAJOR_Shimmer 1
+#define COCOAPODS_VERSION_MINOR_Shimmer 0
+#define COCOAPODS_VERSION_PATCH_Shimmer 2
 
 // pop
 #define COCOAPODS_POD_AVAILABLE_pop
