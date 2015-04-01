@@ -12,8 +12,12 @@
 
 @interface StreamViewController () <ASCollectionViewDataSource, ASCollectionViewDelegate>
 @property (nonatomic, strong) ASCollectionView *collectionView;
-@property (nonatomic, strong) NSArray *streamDataArray;
+@property (nonatomic, strong) NSMutableArray *streamDataArray;
 @property (nonatomic, strong) NSNumber *page;
+@property (nonatomic, strong) UIRefreshControl *refreshControl;
+
+@property (nonatomic) BOOL initialLoad;
+
 @end
 
 @implementation StreamViewController {
@@ -36,7 +40,7 @@
 
 
 - (void)commonInit {
-    self.streamDataArray = @[];
+    self.streamDataArray = @[].mutableCopy;
     self.page = @0;
 
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
@@ -45,8 +49,15 @@
     self.collectionView = [[ASCollectionView alloc] initWithFrame:CGRectZero
                                              collectionViewLayout:flowLayout
                                                 asyncDataFetching:YES];
+
+    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
+    [refreshControl addTarget:self action:@selector(refresh)
+             forControlEvents:UIControlEventValueChanged];
+    self.refreshControl = refreshControl;
+    
     [self.collectionView setAsyncDataSource:self];
     [self.collectionView setAsyncDelegate:self];
+    [self.collectionView addSubview:self.refreshControl];
 }
 
 - (void)viewDidLoad {
@@ -57,21 +68,21 @@
 
     [self.view addSubview:self.collectionView];
 
-    // begin loading
+    [self refresh];
+}
+
+- (void)refresh {
     [Post globalTimelinePostsForPage:self.page
                            withBlock:^(NSArray *posts, NSError *error) {
-                               dispatch_async(dispatch_get_main_queue(), ^{
-                                   if (error)
-                                       DLog(@"error: %@", error);
-                                   if (posts.count)
-                                       self.page = @(self.page.intValue + 1);
-                                   NSMutableArray *indexPaths = @[].mutableCopy;
-                                   NSUInteger existingPosts = self.streamDataArray.count;
-                                   for (int i = 0; i < posts.count; i++) {
-                                       [indexPaths addObject:[NSIndexPath indexPathForItem:(existingPosts + i)
-                                                                                 inSection:0]];
-                                   }
-                                   self.streamDataArray = [self.streamDataArray arrayByAddingObjectsFromArray:posts];
+                               if (error)
+                                   DLog(@"error: %@", error);
+                               if (posts.count)
+                                   self.page = @(1);
+                               [self.streamDataArray removeAllObjects];
+                               [self.streamDataArray addObjectsFromArray:posts];
+
+                               [self.refreshControl endRefreshing];
+                               dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                                    [self.collectionView reloadData];
                                });
                            }];
@@ -86,9 +97,11 @@
 #pragma mark - ASCollectionView data source + delegate
 
 - (void)collectionView:(ASCollectionView *)collectionView willDisplayNodeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    KVNStreamViewNode *node = (KVNStreamViewNode *) [collectionView nodeForItemAtIndexPath:indexPath];
-    Post *post = self.streamDataArray[(NSUInteger) indexPath.item];
-    [node setPost:post];
+    if (self.streamDataArray.count > indexPath.item) {
+        KVNStreamViewNode *node = (KVNStreamViewNode *) [collectionView nodeForItemAtIndexPath:indexPath];
+        Post *post = self.streamDataArray[(NSUInteger) indexPath.item];
+        [node setPost:post];
+    }
 }
 
 - (void)collectionView:(ASCollectionView *)collectionView didEndDisplayingNodeForItemAtIndexPath:(NSIndexPath *)indexPath {
@@ -99,8 +112,10 @@
 - (ASCellNode *)collectionView:(ASCollectionView *)collectionView nodeForItemAtIndexPath:(NSIndexPath *)indexPath {
     KVNStreamViewNode *node = [[KVNStreamViewNode alloc] init];
 
-    Post *post = self.streamDataArray[(NSUInteger) indexPath.item];
-    node.post = post;
+    if (self.streamDataArray.count > indexPath.item) {
+        Post *post = self.streamDataArray[(NSUInteger) indexPath.item];
+        node.post = post;
+    }
 
     return node;
 }
@@ -124,7 +139,7 @@
                                            [indexPaths addObject:[NSIndexPath indexPathForItem:(existingPosts + i)
                                                                                      inSection:0]];
                                        }
-                                       self.streamDataArray = [self.streamDataArray arrayByAddingObjectsFromArray:posts];
+                                       [self.streamDataArray addObjectsFromArray:posts];
 
                                        [self.collectionView insertItemsAtIndexPaths:indexPaths];
                                        [context completeBatchFetching:YES];
@@ -134,7 +149,7 @@
 }
 
 - (BOOL)shouldBatchFetchForCollectionView:(ASCollectionView *)collectionView {
-    return self.streamDataArray.count < 500;
+    return self.streamDataArray.count < 500 && !self.initialLoad;
 }
 
 

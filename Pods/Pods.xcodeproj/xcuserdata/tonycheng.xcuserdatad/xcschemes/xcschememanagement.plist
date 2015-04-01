@@ -8,44 +8,137 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-Strap-AsyncDisplayKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-Strap-Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>Pods-Strap-FLAnimatedImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Pods-Strap-Facebook-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>Pods-Strap-KVOController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>Pods-Strap-SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>Pods-Strap-Shimmer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Pods-Strap-WebASDKImageManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>Pods-Strap-pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>Pods-Strap.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>1BFDB179501FC1C84BA50B91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1D5C27A75F04F827889AAE77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>235231F3F4E1BFF0FAC01E1A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34218289C7878AB3F6BE292A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F9CD376E8488B21D2FE8C93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63F9A708ECB72C777BFAEDFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7E5B618A9F6EF25D7E0CF697</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA679E3859C1FBA0D290B7D3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA9B00306C2C35A7FFCA5C43</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F65B55431B6B12B578DD12B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBEC825D2E6A83598721A6DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

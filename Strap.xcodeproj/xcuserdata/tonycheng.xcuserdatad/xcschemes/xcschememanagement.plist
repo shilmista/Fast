@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - Strap WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>Notification - Strap WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>Strap WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>Strap.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>AB1E48391AC46F860084B189</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ABA4857B1ACB404D00FCE25D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

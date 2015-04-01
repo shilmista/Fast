@@ -5,7 +5,6 @@
 
 #import "AppDotNetAPIClient.h"
 
-
 static NSString * const AFAppDotNetAPIBaseURLString = @"https://api.app.net/";
 
 @implementation AppDotNetAPIClient

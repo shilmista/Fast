@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F47C31D08AC5B8ED907EA06"
+               BlueprintIdentifier = "63F9A708ECB72C777BFAEDFF"
                BuildableName = "libPods-Strap-FLAnimatedImage.a"
                BlueprintName = "Pods-Strap-FLAnimatedImage"
                ReferencedContainer = "container:Pods.xcodeproj">

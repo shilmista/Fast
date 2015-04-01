@@ -23,6 +23,16 @@
 		AB1E484D1AC48AE50084B189 /* yup.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB1E484C1AC48AE50084B189 /* yup.gif */; };
 		AB1F0BD81AC5DBA800141F25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */; };
 		AB1F0BDA1AC5DC7000141F25 /* yeah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */; };
+		ABA485711ACB404D00FCE25D /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485701ACB404D00FCE25D /* InterfaceController.m */; };
+		ABA485741ACB404D00FCE25D /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485731ACB404D00FCE25D /* NotificationController.m */; };
+		ABA485771ACB404D00FCE25D /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485761ACB404D00FCE25D /* GlanceController.m */; };
+		ABA485791ACB404D00FCE25D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA485781ACB404D00FCE25D /* Images.xcassets */; };
+		ABA4857D1ACB404D00FCE25D /* Strap WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = ABA4857C1ACB404D00FCE25D /* Strap WatchKit App.app */; };
+		ABA485851ACB404D00FCE25D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA485831ACB404D00FCE25D /* Interface.storyboard */; };
+		ABA485871ACB404D00FCE25D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA485861ACB404D00FCE25D /* Images.xcassets */; };
+		ABA4858B1ACB404D00FCE25D /* Strap WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABA4856A1ACB404D00FCE25D /* Strap WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABA485941ACB4B5A00FCE25D /* SecondPageInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485931ACB4B5A00FCE25D /* SecondPageInterfaceController.m */; };
+		ABA485971ACB4F6F00FCE25D /* ThirdInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485961ACB4F6F00FCE25D /* ThirdInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +43,35 @@
 			remoteGlobalIDString = AB1E48201AC46F860084B189;
 			remoteInfo = Strap;
 		};
+		ABA4857E1ACB404D00FCE25D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1E48191AC46F860084B189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA4857B1ACB404D00FCE25D;
+			remoteInfo = "Strap WatchKit App";
+		};
+		ABA485881ACB404D00FCE25D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1E48191AC46F860084B189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA485691ACB404D00FCE25D;
+			remoteInfo = "Strap WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABA4858A1ACB404D00FCE25D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ABA4858B1ACB404D00FCE25D /* Strap WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		39D9863B337A1D6103052642 /* Pods-Strap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strap/Pods-Strap.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +88,8 @@
 		3F23493EF5D4C0DEC12DEF5B /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
 		3F234D960E9A72A444585F6F /* StreamCollectionViewNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamCollectionViewNode.m; sourceTree = "<group>"; };
 		8651A9201DE57E9B2A98BD06 /* libPods-Strap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Strap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1809AC1ACB011600958C2C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AB1809AE1ACB011B00958C2C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		AB1E48211AC46F860084B189 /* Strap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1E48251AC46F860084B189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB1E48261AC46F860084B189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,6 +104,24 @@
 		AB1E484C1AC48AE50084B189 /* yup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yup.gif; sourceTree = "<group>"; };
 		AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yeah.mp4; sourceTree = "<group>"; };
+		ABA4856A1ACB404D00FCE25D /* Strap WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Strap WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA4856D1ACB404D00FCE25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA4856E1ACB404D00FCE25D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ABA4856F1ACB404D00FCE25D /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		ABA485701ACB404D00FCE25D /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		ABA485721ACB404D00FCE25D /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		ABA485731ACB404D00FCE25D /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		ABA485751ACB404D00FCE25D /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		ABA485761ACB404D00FCE25D /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		ABA485781ACB404D00FCE25D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABA4857C1ACB404D00FCE25D /* Strap WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strap WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA485821ACB404D00FCE25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA485841ACB404D00FCE25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		ABA485861ACB404D00FCE25D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABA485921ACB4B5A00FCE25D /* SecondPageInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPageInterfaceController.h; sourceTree = "<group>"; };
+		ABA485931ACB4B5A00FCE25D /* SecondPageInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPageInterfaceController.m; sourceTree = "<group>"; };
+		ABA485951ACB4F6F00FCE25D /* ThirdInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdInterfaceController.h; sourceTree = "<group>"; };
+		ABA485961ACB4F6F00FCE25D /* ThirdInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdInterfaceController.m; sourceTree = "<group>"; };
 		C8B0829E0FA51582F05379F3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		ED5A01F49D42D1A105CE3428 /* Pods-Strap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strap/Pods-Strap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +137,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AB1E48371AC46F860084B189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA485671ACB404D00FCE25D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,6 +198,8 @@
 			children = (
 				AB1E48231AC46F860084B189 /* Strap */,
 				AB1E483D1AC46F860084B189 /* StrapTests */,
+				ABA4856B1ACB404D00FCE25D /* Strap WatchKit Extension */,
+				ABA485801ACB404D00FCE25D /* Strap WatchKit App */,
 				AB1E48221AC46F860084B189 /* Products */,
 				6495B1FBAE7C1D77F6627C9B /* Pods */,
 				D8C9571D9B14111323042149 /* Frameworks */,
@@ -144,6 +211,8 @@
 			children = (
 				AB1E48211AC46F860084B189 /* Strap.app */,
 				AB1E483A1AC46F860084B189 /* StrapTests.xctest */,
+				ABA4856A1ACB404D00FCE25D /* Strap WatchKit Extension.appex */,
+				ABA4857C1ACB404D00FCE25D /* Strap WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,9 +264,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABA4856B1ACB404D00FCE25D /* Strap WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4856F1ACB404D00FCE25D /* InterfaceController.h */,
+				ABA485921ACB4B5A00FCE25D /* SecondPageInterfaceController.h */,
+				ABA485931ACB4B5A00FCE25D /* SecondPageInterfaceController.m */,
+				ABA485701ACB404D00FCE25D /* InterfaceController.m */,
+				ABA485721ACB404D00FCE25D /* NotificationController.h */,
+				ABA485731ACB404D00FCE25D /* NotificationController.m */,
+				ABA485751ACB404D00FCE25D /* GlanceController.h */,
+				ABA485761ACB404D00FCE25D /* GlanceController.m */,
+				ABA485781ACB404D00FCE25D /* Images.xcassets */,
+				ABA485951ACB4F6F00FCE25D /* ThirdInterfaceController.h */,
+				ABA485961ACB4F6F00FCE25D /* ThirdInterfaceController.m */,
+				ABA4856C1ACB404D00FCE25D /* Supporting Files */,
+			);
+			path = "Strap WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ABA4856C1ACB404D00FCE25D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4856D1ACB404D00FCE25D /* Info.plist */,
+				ABA4856E1ACB404D00FCE25D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA485801ACB404D00FCE25D /* Strap WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				ABA485831ACB404D00FCE25D /* Interface.storyboard */,
+				ABA485861ACB404D00FCE25D /* Images.xcassets */,
+				ABA485811ACB404D00FCE25D /* Supporting Files */,
+			);
+			path = "Strap WatchKit App";
+			sourceTree = "<group>";
+		};
+		ABA485811ACB404D00FCE25D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA485821ACB404D00FCE25D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D8C9571D9B14111323042149 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB1809AE1ACB011B00958C2C /* CFNetwork.framework */,
+				AB1809AC1ACB011600958C2C /* libz.dylib */,
 				AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */,
 				8651A9201DE57E9B2A98BD06 /* libPods-Strap.a */,
 			);
@@ -216,10 +333,12 @@
 				AB1E481E1AC46F860084B189 /* Frameworks */,
 				AB1E481F1AC46F860084B189 /* Resources */,
 				A8014E44E4FC255699845B22 /* Copy Pods Resources */,
+				ABA4858A1ACB404D00FCE25D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ABA485891ACB404D00FCE25D /* PBXTargetDependency */,
 			);
 			name = Strap;
 			productName = Strap;
@@ -244,6 +363,39 @@
 			productReference = AB1E483A1AC46F860084B189 /* StrapTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		ABA485691ACB404D00FCE25D /* Strap WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA485911ACB404D00FCE25D /* Build configuration list for PBXNativeTarget "Strap WatchKit Extension" */;
+			buildPhases = (
+				ABA485661ACB404D00FCE25D /* Sources */,
+				ABA485671ACB404D00FCE25D /* Frameworks */,
+				ABA485681ACB404D00FCE25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA4857F1ACB404D00FCE25D /* PBXTargetDependency */,
+			);
+			name = "Strap WatchKit Extension";
+			productName = "Strap WatchKit Extension";
+			productReference = ABA4856A1ACB404D00FCE25D /* Strap WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		ABA4857B1ACB404D00FCE25D /* Strap WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA485901ACB404D00FCE25D /* Build configuration list for PBXNativeTarget "Strap WatchKit App" */;
+			buildPhases = (
+				ABA4857A1ACB404D00FCE25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Strap WatchKit App";
+			productName = "Strap WatchKit App";
+			productReference = ABA4857C1ACB404D00FCE25D /* Strap WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -259,6 +411,12 @@
 					AB1E48391AC46F860084B189 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = AB1E48201AC46F860084B189;
+					};
+					ABA485691ACB404D00FCE25D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					ABA4857B1ACB404D00FCE25D = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -277,6 +435,8 @@
 			targets = (
 				AB1E48201AC46F860084B189 /* Strap */,
 				AB1E48391AC46F860084B189 /* StrapTests */,
+				ABA485691ACB404D00FCE25D /* Strap WatchKit Extension */,
+				ABA4857B1ACB404D00FCE25D /* Strap WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -298,6 +458,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA485681ACB404D00FCE25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA485791ACB404D00FCE25D /* Images.xcassets in Resources */,
+				ABA4857D1ACB404D00FCE25D /* Strap WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA4857A1ACB404D00FCE25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA485851ACB404D00FCE25D /* Interface.storyboard in Resources */,
+				ABA485871ACB404D00FCE25D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +538,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABA485661ACB404D00FCE25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA485971ACB4F6F00FCE25D /* ThirdInterfaceController.m in Sources */,
+				ABA485941ACB4B5A00FCE25D /* SecondPageInterfaceController.m in Sources */,
+				ABA485741ACB404D00FCE25D /* NotificationController.m in Sources */,
+				ABA485711ACB404D00FCE25D /* InterfaceController.m in Sources */,
+				ABA485771ACB404D00FCE25D /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -367,6 +557,16 @@
 			isa = PBXTargetDependency;
 			target = AB1E48201AC46F860084B189 /* Strap */;
 			targetProxy = AB1E483B1AC46F860084B189 /* PBXContainerItemProxy */;
+		};
+		ABA4857F1ACB404D00FCE25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA4857B1ACB404D00FCE25D /* Strap WatchKit App */;
+			targetProxy = ABA4857E1ACB404D00FCE25D /* PBXContainerItemProxy */;
+		};
+		ABA485891ACB404D00FCE25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA485691ACB404D00FCE25D /* Strap WatchKit Extension */;
+			targetProxy = ABA485881ACB404D00FCE25D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -377,6 +577,14 @@
 				AB1E48341AC46F860084B189 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ABA485831ACB404D00FCE25D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA485841ACB404D00FCE25D /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -463,6 +671,10 @@
 			baseConfigurationReference = 39D9863B337A1D6103052642 /* Pods-Strap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Strap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,6 +687,10 @@
 			baseConfigurationReference = ED5A01F49D42D1A105CE3428 /* Pods-Strap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Strap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +732,66 @@
 			};
 			name = Release;
 		};
+		ABA4858C1ACB404D00FCE25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Strap WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ABA4858D1ACB404D00FCE25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "Strap WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ABA4858E1ACB404D00FCE25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Strap_WatchKit_Extension;
+				INFOPLIST_FILE = "Strap WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		ABA4858F1ACB404D00FCE25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = Strap_WatchKit_Extension;
+				INFOPLIST_FILE = "Strap WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -545,6 +821,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		ABA485901ACB404D00FCE25D /* Build configuration list for PBXNativeTarget "Strap WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA4858E1ACB404D00FCE25D /* Debug */,
+				ABA4858F1ACB404D00FCE25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA485911ACB404D00FCE25D /* Build configuration list for PBXNativeTarget "Strap WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA4858C1ACB404D00FCE25D /* Debug */,
+				ABA4858D1ACB404D00FCE25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

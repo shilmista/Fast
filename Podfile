@@ -4,11 +4,13 @@
 target 'Strap' do
   pod 'pop', '~> 1.0.7'
   pod 'AsyncDisplayKit', :head
-  pod "AFNetworking"
+  pod "AFNetworking", '~> 2.5.2'
   pod 'FLAnimatedImage'
   pod 'SDWebImage'
   pod 'KVOController'
   pod 'Shimmer'
+  pod "WebASDKImageManager"
+  pod 'Facebook-iOS-SDK'
 end
 
 target 'StrapTests' do

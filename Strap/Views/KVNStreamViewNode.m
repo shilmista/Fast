@@ -12,12 +12,13 @@
 
 #import "Constants.h"
 #import "UIImageView+WebCache.h"
+#import "ASNetworkImageNode+WebImage.h"
 
 static const float kStreamViewTopCardHeight = 78.0f;
 static const float kStreamViewNodeHorizontalPadding = 5.0f;
 static const float kStreamViewNodeVerticalPadding = 12.0f;
 
-@interface KVNStreamViewNode ()
+@interface KVNStreamViewNode () <ASNetworkImageNodeDelegate>
 
 @property (nonatomic, strong) ASDisplayNode *cardBackNode;
 @property (nonatomic, strong) ASNetworkImageNode *profileImageNode;
@@ -32,7 +33,7 @@ static const float kStreamViewNodeVerticalPadding = 12.0f;
 
 }
 
-#define kUseAsyncDisplayImage NO
+#define kUseAsyncDisplayImage YES
 
 - (instancetype) init {
     if (!(self = [super init]))
@@ -54,7 +55,8 @@ static const float kStreamViewNodeVerticalPadding = 12.0f;
     [self addSubnode:self.cardBackNode];
 
     if (kUseAsyncDisplayImage) {
-        self.imageNode = [[ASNetworkImageNode alloc] init];
+        self.imageNode = [[ASNetworkImageNode alloc] initWithWebImage];
+        self.imageNode.delegate = self;
         [self.imageNode setLayerBacked:YES];
         [self.imageNode setContentMode:UIViewContentModeScaleAspectFill];
         [self.imageNode setClipsToBounds:YES];
@@ -95,7 +97,7 @@ static const float kStreamViewNodeVerticalPadding = 12.0f;
 
     self.cardBackNode.frame = CGRectMake(kStreamViewNodeHorizontalPadding, 0, self.bounds.size.width - 2.0f * kStreamViewNodeHorizontalPadding, self.bounds.size.height);
     self.imageNode.frame = CGRectMake(0, kStreamViewTopCardHeight, self.bounds.size.width, self.bounds.size.width);
-    self.sdWebImageNode.frame = CGRectMake(0, kStreamViewTopCardHeight, self.bounds.size.width, self.bounds.size.width);
+    self.sdWebImageNode.view.frame = CGRectMake(0, kStreamViewTopCardHeight, self.bounds.size.width, self.bounds.size.width);
     self.captionNode.frame = CGRectMake(kStreamViewNodeHorizontalPadding * 2.0f,
             kStreamViewTopCardHeight + self.bounds.size.width + kStreamViewNodeVerticalPadding,
             self.bounds.size.width - kStreamViewNodeHorizontalPadding * 4.0f,
@@ -117,6 +119,7 @@ static const float kStreamViewNodeVerticalPadding = 12.0f;
             [(UIImageView *) self.sdWebImageNode.view sd_setImageWithURL:_post.imageURL
                                                                completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
                                                                    dispatch_async(dispatch_get_main_queue(), ^{
+                                                                       [(UIImageView *) self.sdWebImageNode.view setImage:image];
                                                                        if (cacheType == SDImageCacheTypeDisk || cacheType == SDImageCacheTypeNone) {
                                                                            [self.sdWebImageNode.view setAlpha:0];
                                                                            [UIView animateWithDuration:0.3
@@ -137,5 +140,12 @@ static const float kStreamViewNodeVerticalPadding = 12.0f;
 
     [self invalidateCalculatedSize];
 }
+
+#pragma mark - ASNetworkImageNodeDelegate
+
+- (void)imageNode:(ASNetworkImageNode *)imageNode didLoadImage:(UIImage *)image {
+
+}
+
 
 @end
