@@ -231,10 +231,23 @@ static const CGFloat kFontSize = 18.0f;
 #pragma mark -
 #pragma mark UIViewController.
 
+- (instancetype)init {
+    if (!(self = [super init]))
+        return nil;
+    [self commonInit];
+    return self;
+}
+
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (!(self = [super initWithCoder:aDecoder]))
         return nil;
 
+    [self commonInit];
+
+    return self;
+}
+
+- (void)commonInit {
     NSArray *colorsArray = [self dataArrayOfSize:10];
     self.colorsArray = colorsArray;
 
@@ -250,8 +263,6 @@ static const CGFloat kFontSize = 18.0f;
     _collectionView.asyncDataSource = self;
     _collectionView.asyncDelegate = self;
     _collectionView.backgroundColor = [UIColor whiteColor];
-
-    return self;
 }
 
 - (void)viewDidLoad

@@ -9,6 +9,7 @@
 #import "Post.h"
 #import "Constants.h"
 #import "KVNStreamViewNode.h"
+#import "AppDelegate.h"
 
 @interface StreamViewController () <ASCollectionViewDataSource, ASCollectionViewDelegate>
 @property (nonatomic, strong) ASCollectionView *collectionView;
@@ -69,6 +70,8 @@
     [self.view addSubview:self.collectionView];
 
     [self refresh];
+
+    [(AppDelegate *) [UIApplication sharedApplication].delegate registerForNotifications];
 }
 
 - (void)refresh {

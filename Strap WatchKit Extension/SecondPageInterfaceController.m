@@ -11,6 +11,7 @@
 
 @interface SecondPageInterfaceController()
 - (IBAction)buttonTapped:(id)sender;
+- (IBAction)toAppTapped:(id)sender;
 @end
 
 
@@ -35,6 +36,11 @@
 #pragma mark - Button
 - (IBAction)buttonTapped:(id)sender {
 
+}
+
+- (IBAction)toAppTapped:(id)sender {
+    [WKInterfaceController openParentApplication:nil reply:^(NSDictionary *replyInfo, NSError *error) {
+    }];
 }
 
 @end

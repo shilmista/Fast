@@ -2,68 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be04d2aa-8ad1-4a9c-a1a4-952f9d2df8d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit App/Images.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/GlanceController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/GlanceController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit App/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit App/Base.lproj/Interface.storyboard" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/InterfaceController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/InterfaceController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/NotificationController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/NotificationController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/PushNotificationPayload.apns" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/Images.xcassets/README__ignoredByTemplate__" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/SecondPageInterfaceController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/SecondPageInterfaceController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/ThirdInterfaceController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/ThirdInterfaceController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap/AppDotNetAPIClient.m" afterPath="$PROJECT_DIR$/Strap/AppDotNetAPIClient.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap/Views/KVNStreamViewNode.m" afterPath="$PROJECT_DIR$/Strap/Views/KVNStreamViewNode.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-AFNetworking/Pods-Strap-AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-AFNetworking/Pods-Strap-AFNetworking-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-AFNetworking.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-AFNetworking.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-AsyncDisplayKit/Pods-Strap-AsyncDisplayKit-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-AsyncDisplayKit/Pods-Strap-AsyncDisplayKit-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-AsyncDisplayKit.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-AsyncDisplayKit.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-FLAnimatedImage/Pods-Strap-FLAnimatedImage-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-FLAnimatedImage/Pods-Strap-FLAnimatedImage-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-FLAnimatedImage.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-FLAnimatedImage.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-KVOController/Pods-Strap-KVOController-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-KVOController/Pods-Strap-KVOController-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-KVOController.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-KVOController.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-SDWebImage/Pods-Strap-SDWebImage-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-SDWebImage/Pods-Strap-SDWebImage-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-SDWebImage.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-SDWebImage.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-Shimmer/Pods-Strap-Shimmer-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-Shimmer/Pods-Strap-Shimmer-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-Shimmer.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-Shimmer.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap-environment.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap-environment.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-pop/Pods-Strap-pop-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap-pop/Pods-Strap-pop-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-pop.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap-pop.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Strap/Pods-Strap.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Pods-Strap.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Strap.iml" afterPath="$PROJECT_DIR$/.idea/Strap.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap/pumpkin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap/RegularViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strap/RegularViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap/AppDelegate.h" afterPath="$PROJECT_DIR$/Strap/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap/AppDelegate.m" afterPath="$PROJECT_DIR$/Strap/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Glance - Strap WatchKit App.xcscheme" afterPath="$PROJECT_DIR$/Strap.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Glance - Strap WatchKit App.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap WatchKit App/Base.lproj/Interface.storyboard" afterPath="$PROJECT_DIR$/Strap WatchKit App/Base.lproj/Interface.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Notification - Strap WatchKit App.xcscheme" afterPath="$PROJECT_DIR$/Strap.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Notification - Strap WatchKit App.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap WatchKit Extension/NotificationController.m" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/NotificationController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap WatchKit Extension/PushNotificationPayload.apns" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/PushNotificationPayload.apns" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap WatchKit Extension/SecondPageInterfaceController.m" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/SecondPageInterfaceController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Strap WatchKit App.xcscheme" afterPath="$PROJECT_DIR$/Strap.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/Strap WatchKit App.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap/StreamViewController.m" afterPath="$PROJECT_DIR$/Strap/StreamViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" afterPath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap WatchKit Extension/ThirdInterfaceController.m" afterPath="$PROJECT_DIR$/Strap WatchKit Extension/ThirdInterfaceController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap/ViewController.m" afterPath="$PROJECT_DIR$/Strap/ViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Strap.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strap.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Strap.xcodeproj/xcuserdata/tonycheng.xcuserdatad/xcschemes/xcschememanagement.plist" />
     </list>
     <ignored path="Strap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +41,38 @@
     <favorites_list name="Strap" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Strap/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1245">
+              <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PushNotificationPayload.apns" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Strap WatchKit Extension/PushNotificationPayload.apns">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="525">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Strap/AppDelegate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,11 +84,9 @@
         <option value="$PROJECT_DIR$/Strap/CustomViewController.h" />
         <option value="$PROJECT_DIR$/Strap/CustomViewController.m" />
         <option value="$PROJECT_DIR$/Strap/ViewController.h" />
-        <option value="$PROJECT_DIR$/Strap/ViewController.m" />
         <option value="$PROJECT_DIR$/Strap/Views/StreamCollectionViewNode.h" />
         <option value="$PROJECT_DIR$/Strap/AppDotNetAPIClient.h" />
         <option value="$PROJECT_DIR$/Strap/Models/Post.h" />
-        <option value="$PROJECT_DIR$/Strap/AppDelegate.m" />
         <option value="$PROJECT_DIR$/Strap/Views/StreamCollectionViewNode.m" />
         <option value="$PROJECT_DIR$/Strap/Views/KVNStreamViewNode.h" />
         <option value="$PROJECT_DIR$/Strap/Models/Post.m" />
@@ -111,9 +95,14 @@
         <option value="$PROJECT_DIR$/Strap/StreamViewController.h" />
         <option value="$PROJECT_DIR$/Podfile" />
         <option value="$PROJECT_DIR$/Pods/AsyncDisplayKit/AsyncDisplayKit/ASCollectionView.mm" />
-        <option value="$PROJECT_DIR$/Strap/StreamViewController.m" />
         <option value="$PROJECT_DIR$/Strap WatchKit Extension/InterfaceController.h" />
         <option value="$PROJECT_DIR$/Strap WatchKit Extension/InterfaceController.m" />
+        <option value="$PROJECT_DIR$/Strap/RegularViewController.h" />
+        <option value="$PROJECT_DIR$/Strap/ViewController.m" />
+        <option value="$PROJECT_DIR$/Strap WatchKit Extension/NotificationController.m" />
+        <option value="$PROJECT_DIR$/Strap/AppDelegate.h" />
+        <option value="$PROJECT_DIR$/Strap/StreamViewController.m" />
+        <option value="$PROJECT_DIR$/Strap/AppDelegate.m" />
       </list>
     </option>
   </component>
@@ -159,6 +148,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Strap" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Strap" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Strap WatchKit Extension" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Strap" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Strap WatchKit Extension" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -399,13 +420,13 @@
       <item index="5" class="java.lang.String" itemvalue="Application.Pods-Strap-KVOController" />
       <item index="6" class="java.lang.String" itemvalue="Application.Pods-Strap-SDWebImage" />
       <item index="7" class="java.lang.String" itemvalue="Application.Pods-Strap-Shimmer" />
-      <item index="8" class="java.lang.String" itemvalue="Application.Strap" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Pods-Strap-WebASDKImageManager" />
-      <item index="10" class="java.lang.String" itemvalue="Application.Pods-Strap-Bolts" />
-      <item index="11" class="java.lang.String" itemvalue="Application.Pods-Strap-Facebook-iOS-SDK" />
-      <item index="12" class="java.lang.String" itemvalue="Application.Glance - Strap WatchKit App" />
-      <item index="13" class="java.lang.String" itemvalue="Application.Notification - Strap WatchKit App" />
-      <item index="14" class="java.lang.String" itemvalue="Application.Strap WatchKit App" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Pods-Strap-WebASDKImageManager" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Pods-Strap-Bolts" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Pods-Strap-Facebook-iOS-SDK" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Glance - Strap WatchKit App" />
+      <item index="12" class="java.lang.String" itemvalue="Application.Notification - Strap WatchKit App" />
+      <item index="13" class="java.lang.String" itemvalue="Application.Strap WatchKit App" />
+      <item index="14" class="java.lang.String" itemvalue="Application.Strap" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -425,7 +446,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -435,18 +456,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16274865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40601504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -472,69 +493,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Podfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="300">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strap/Views/KVNStreamViewNode.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1980">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strap/Views/KVNStreamViewNode.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="315">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#99#132#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strap/StreamViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#99#131#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strap/Models/Post.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="840">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pods/AsyncDisplayKit/AsyncDisplayKit/ASDisplayNode.mm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5505" max-vertical-offset="27495">
-          <caret line="367" column="0" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,24 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strap/ViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77186966" vertical-offset="1260" max-vertical-offset="6600">
-          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Strap/Views/StreamCollectionViewNode.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30201343" vertical-offset="0" max-vertical-offset="596">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strap/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30874786" vertical-offset="0" max-vertical-offset="840">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -701,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5490" max-vertical-offset="27495">
           <caret line="366" column="0" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24496645" vertical-offset="589" max-vertical-offset="1335">
           <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10067114" vertical-offset="0" max-vertical-offset="596">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20134228" vertical-offset="0" max-vertical-offset="596">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="525">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2857143" vertical-offset="0" max-vertical-offset="525">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,15 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3904762" vertical-offset="950" max-vertical-offset="2040">
           <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strap/StreamViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22857143" vertical-offset="0" max-vertical-offset="525">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.028571429" vertical-offset="285" max-vertical-offset="810">
           <caret line="20" column="88" selection-start-line="20" selection-start-column="88" selection-end-line="20" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6857143" vertical-offset="2100" max-vertical-offset="2625">
           <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,15 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="10.843373" vertical-offset="1995" max-vertical-offset="7635">
           <caret line="501" column="24" selection-start-line="501" selection-start-column="24" selection-end-line="501" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Strap/StreamViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17142858" vertical-offset="1665" max-vertical-offset="2355">
-          <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2857143" vertical-offset="0" max-vertical-offset="525">
           <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,6 +764,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="525">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap/RegularViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap/RegularViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17142858" vertical-offset="0" max-vertical-offset="525">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#98#131#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.542857" vertical-offset="0" max-vertical-offset="6765">
+          <caret line="264" column="59" selection-start-line="264" selection-start-column="59" selection-end-line="264" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap WatchKit Extension/NotificationController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2857143" vertical-offset="0" max-vertical-offset="525">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers/WKInterfaceController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51428574" vertical-offset="1065" max-vertical-offset="1590">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap WatchKit Extension/NotificationController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45714286" vertical-offset="30" max-vertical-offset="1800">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap/StreamViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2" vertical-offset="0" max-vertical-offset="525">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap/StreamViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74285716" vertical-offset="705" max-vertical-offset="2475">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="e#99#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIUserNotificationSettings.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="155" max-vertical-offset="1605">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1245">
+          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strap WatchKit Extension/PushNotificationPayload.apns">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="525">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
         </state>
       </provider>

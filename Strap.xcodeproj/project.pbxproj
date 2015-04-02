@@ -23,6 +23,9 @@
 		AB1E484D1AC48AE50084B189 /* yup.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB1E484C1AC48AE50084B189 /* yup.gif */; };
 		AB1F0BD81AC5DBA800141F25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */; };
 		AB1F0BDA1AC5DC7000141F25 /* yeah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */; };
+		AB4854951ACDA58B009DB54B /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4854941ACDA58B009DB54B /* pumpkin.png */; };
+		AB4854961ACDA58B009DB54B /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4854941ACDA58B009DB54B /* pumpkin.png */; };
+		AB4854971ACDA58B009DB54B /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4854941ACDA58B009DB54B /* pumpkin.png */; };
 		ABA485711ACB404D00FCE25D /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485701ACB404D00FCE25D /* InterfaceController.m */; };
 		ABA485741ACB404D00FCE25D /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485731ACB404D00FCE25D /* NotificationController.m */; };
 		ABA485771ACB404D00FCE25D /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485761ACB404D00FCE25D /* GlanceController.m */; };
@@ -33,6 +36,7 @@
 		ABA4858B1ACB404D00FCE25D /* Strap WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABA4856A1ACB404D00FCE25D /* Strap WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		ABA485941ACB4B5A00FCE25D /* SecondPageInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485931ACB4B5A00FCE25D /* SecondPageInterfaceController.m */; };
 		ABA485971ACB4F6F00FCE25D /* ThirdInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA485961ACB4F6F00FCE25D /* ThirdInterfaceController.m */; };
+		C8B08A69EDF5B2944BA98DD4 /* RegularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B08CDC59A2554D67E5564C /* RegularViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +108,7 @@
 		AB1E484C1AC48AE50084B189 /* yup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yup.gif; sourceTree = "<group>"; };
 		AB1F0BD71AC5DBA800141F25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = yeah.mp4; sourceTree = "<group>"; };
+		AB4854941ACDA58B009DB54B /* pumpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpkin.png; sourceTree = "<group>"; };
 		ABA4856A1ACB404D00FCE25D /* Strap WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Strap WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA4856D1ACB404D00FCE25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA4856E1ACB404D00FCE25D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -123,6 +128,8 @@
 		ABA485951ACB4F6F00FCE25D /* ThirdInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdInterfaceController.h; sourceTree = "<group>"; };
 		ABA485961ACB4F6F00FCE25D /* ThirdInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdInterfaceController.m; sourceTree = "<group>"; };
 		C8B0829E0FA51582F05379F3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C8B086AE8B0E4D9ED6AB79B1 /* RegularViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularViewController.h; sourceTree = "<group>"; };
+		C8B08CDC59A2554D67E5564C /* RegularViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularViewController.m; sourceTree = "<group>"; };
 		ED5A01F49D42D1A105CE3428 /* Pods-Strap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strap/Pods-Strap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +167,8 @@
 				3F23493EF5D4C0DEC12DEF5B /* StreamViewController.m */,
 				3F234441D9C2A80F7A533603 /* ViewController.h */,
 				3F2340F1F0AD457084D7E420 /* ViewController.m */,
+				C8B08CDC59A2554D67E5564C /* RegularViewController.m */,
+				C8B086AE8B0E4D9ED6AB79B1 /* RegularViewController.h */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -220,6 +229,7 @@
 		AB1E48231AC46F860084B189 /* Strap */ = {
 			isa = PBXGroup;
 			children = (
+				AB4854941ACDA58B009DB54B /* pumpkin.png */,
 				AB1F0BD91AC5DC7000141F25 /* yeah.mp4 */,
 				AB1E484C1AC48AE50084B189 /* yup.gif */,
 				AB1E484A1AC48A8D0084B189 /* bees.gif */,
@@ -450,6 +460,7 @@
 				AB1E48321AC46F860084B189 /* Images.xcassets in Resources */,
 				AB1E484D1AC48AE50084B189 /* yup.gif in Resources */,
 				AB1F0BDA1AC5DC7000141F25 /* yeah.mp4 in Resources */,
+				AB4854951ACDA58B009DB54B /* pumpkin.png in Resources */,
 				AB1E484B1AC48A8D0084B189 /* bees.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +477,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA485791ACB404D00FCE25D /* Images.xcassets in Resources */,
+				AB4854961ACDA58B009DB54B /* pumpkin.png in Resources */,
 				ABA4857D1ACB404D00FCE25D /* Strap WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA485851ACB404D00FCE25D /* Interface.storyboard in Resources */,
+				AB4854971ACDA58B009DB54B /* pumpkin.png in Resources */,
 				ABA485871ACB404D00FCE25D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +540,7 @@
 				3F234932C2C1A04582CC46A6 /* AppDotNetAPIClient.m in Sources */,
 				3F2344B3B00F17205E617472 /* Post.m in Sources */,
 				3F234FC04C183CCB6C6535B5 /* KVNStreamViewNode.m in Sources */,
+				C8B08A69EDF5B2944BA98DD4 /* RegularViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,6 +843,7 @@
 				ABA4858F1ACB404D00FCE25D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABA485911ACB404D00FCE25D /* Build configuration list for PBXNativeTarget "Strap WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -837,6 +852,7 @@
 				ABA4858D1ACB404D00FCE25D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

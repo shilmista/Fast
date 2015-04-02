@@ -35,6 +35,11 @@
                                 <segue destination="2Ba-xh-aBE" kind="modal" id="q47-rf-L9s"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="To App" id="9fa-Ec-0yR">
+                            <connections>
+                                <action selector="toAppTapped:" destination="xdF-B6-Tb0" id="ZYC-iF-tke"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -45,7 +50,12 @@
             <objects>
                 <controller title="Third" id="2Ba-xh-aBE" customClass="ThirdInterfaceController">
                     <items>
-                        <button width="1" alignment="left" title="dismiss" id="W5a-tK-hI2"/>
+                        <imageView alignment="left" image="pumpkin.png" id="C3v-4E-d8g"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="dismiss" id="W5a-tK-hI2">
+                            <connections>
+                                <action selector="dismissButtonPressed:" destination="2Ba-xh-aBE" id="DPX-z6-Xvd"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
@@ -57,7 +67,11 @@
                 <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
                     <items>
                         <group alignment="left" id="t8f-Gd-c4y"/>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                        <group alignment="left" id="uCw-4Q-Ouw">
+                            <items>
+                                <imageView alignment="left" image="pumpkin.png" id="1qn-qN-9Z3"/>
+                            </items>
+                        </group>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
                 </glanceController>
@@ -69,11 +83,12 @@
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                        <label alignment="left" text="Label" id="jmz-hT-vW2"/>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <color key="backgroundColor" red="0.13650887232938833" green="0.56129655934343436" blue="0.0571700592277384" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <outlet property="notificationAlertLabel" destination="jmz-hT-vW2" id="dnE-hQ-94f"/>
                         <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
                     </connections>
                 </notificationController>
@@ -83,9 +98,18 @@
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+                <controller id="gdX-wl-uQE" customClass="NotificationController">
+                    <items>
+                        <label alignment="left" text="Label" id="jRh-ft-ZK3"/>
+                    </items>
+                    <color key="backgroundColor" red="1" green="0.69269430931290144" blue="0.72515425102452302" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="notesLabel" destination="jRh-ft-ZK3" id="cak-Jp-Rst"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="553" y="1001"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="1" green="0.69269430929999998" blue="0.72515425099999997" alpha="1" colorSpace="calibratedRGB"/>
 </document>

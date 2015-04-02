@@ -34,7 +34,7 @@
 
 #pragma mark - IBAction
 - (IBAction)dismissButtonPressed:(id)sender {
-    
+    [self dismissController];
 }
 
 @end

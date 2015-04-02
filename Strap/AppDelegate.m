@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "StreamViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,7 @@
     if (self.window == nil)
         self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[StreamViewController alloc] init];
+//    self.window.rootViewController = [[ViewController alloc] init];
     [self.window makeKeyAndVisible];
 
     return YES;
@@ -47,5 +49,31 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (void)registerForNotifications {
+    NSMutableSet *categories = [[NSMutableSet alloc] init];
+
+    UIMutableUserNotificationAction *acceptAction = [[UIMutableUserNotificationAction alloc] init];
+    acceptAction.title = @"Accept";
+    acceptAction.identifier = @"accept";
+    acceptAction.activationMode = UIUserNotificationActivationModeBackground;
+    acceptAction.authenticationRequired = false;
+
+    UIMutableUserNotificationAction *declineAction = [[UIMutableUserNotificationAction alloc] init];
+    declineAction.title = @"Decline";
+    declineAction.identifier = @"decline";
+    declineAction.activationMode = UIUserNotificationActivationModeBackground;
+    declineAction.authenticationRequired = false;
+
+    // Configure other actions and categories and add them to the set...
+    UIMutableUserNotificationCategory *inviteCategory = [[UIMutableUserNotificationCategory alloc] init];
+    [inviteCategory setActions:@[acceptAction, declineAction] forContext:UIUserNotificationActionContextDefault];
+    [categories addObject:inviteCategory];
+
+    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert categories:categories];
+
+    [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+}
+
 
 @end
